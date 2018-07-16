@@ -42,7 +42,7 @@ int main(){
 	for(i=0;i<iter;i++){
 		int angle = (rand() % (range[1] - range[0] + 1)) + range[0];
 		angle *= 10;
-		angle = (rand() % 2 == 0 ? 1 : -1) * angle;
+		//angle = (rand() % 2 == 0 ? 1 : -1) * angle;
 		cartesianRot(coords, angle);
 		printf("%f %f @ %d\n", coords[0], coords[1], angle);
 	}
