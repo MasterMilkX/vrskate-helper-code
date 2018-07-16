@@ -28,11 +28,11 @@ int main(){
 	int iter;
 
 	//get the inputs
-	printf("Start coords (x,y): \n");
+	//printf("Start coords (x,y): \n");
 	scanf("%f %f", &coords[0], &coords[1]);
-	printf("Range (min, max): \n");
+	//printf("Range (min, max): \n");
 	scanf("%d %d", &range[0], &range[1]);
-	printf("Iterations #: \n");
+	//printf("Iterations #: \n");
 	scanf("%d", &iter);
 
 
